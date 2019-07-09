@@ -1,0 +1,151 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	display:block;
+
+	width:100%;
+	background-image: url("background3.svg");
+	background-attachment: fixed;
+	font-family: verdana;
+	
+	}
+	
+.contenttable {
+	border: 2px solid #b56969;
+}
+	
+.container {
+	background-color:	#3B4A4F;
+	-moz-background-color:	#3B4A4F;
+	
+}
+
+
+li a:hover:not(.active) {
+		 background-color:#FE4531; 
+		 color:#FFF;
+	}
+	a {
+		color:#FFF
+	}
+	 a:hover:not(.active) {
+		
+		 color:#3B4A4F; 
+	
+	}
+	
+.well {
+	background-color:#F7F8FA;
+	border:none;
+	overflow:auto;
+	
+}
+
+
+.navbar {
+	
+}
+	
+	
+
+div {
+	padding:2px;
+}
+
+		
+button {
+		float: right;
+		padding: 10px;
+		background: #ddd;
+		font-size: 18px;
+		border: none;
+		cursor: pointer;
+		background: #F7F8FA;
+		color:#3B4A4F;
+	
+	}
+		
+button:hover {
+		 background:#FE4531; color:#FFF;
+	}
+
+
+footer {
+	display:block;
+}
+
+
+.headerpic {
+	size:57px;
+}
+
+
+.rightnav {
+ float:right;	
+}
+
+.linkcolor {
+	color:#FFF;
+}
+
+@media only screen and (max-width: 765px) {
+		h3 {
+		display:none;
+	}
+	
+	.rightnav {
+		display:block;
+		float:left;
+	}
+	
+.keeprad {
+	border-radius:5px;
+}
+ .hiddennav {
+		display:none;
+	} 
+}
